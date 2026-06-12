@@ -1,0 +1,218 @@
+:root {
+    --bg-bege: #eecfa1;
+    --bg-bege-escuro: #d4b276;
+    --marrom-madeira: #452608;
+    --verde-grama: #304809;
+    --preto: #181d1f;
+    --branco: #ffffff;
+    --dourado: #7b5519;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background: var(--bg-bege);
+    color: var(--preto);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    color: var(--marrom-madeira);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box-retro {
+    background: var(--bg-bege);
+    border: 4px solid var(--marrom-madeira);
+    box-shadow: 4px 4px 0 var(--preto);
+    padding: 20px;
+}
+
+header {
+    background: var(--marrom-madeira);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid var(--preto);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: var(--bg-bege);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.logo-subtitulo {
+    font-size: 10px;
+    color: #8f563b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--bg-bege);
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(var(--verde-grama) 50%, var(--bg-bege) 50%);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+    background: var(--bg-bege);
+    border: 4px solid var(--marrom-madeira);
+    box-shadow: 8px 8px 0 var(--preto);
+    padding: 40px;
+}
+
+.pixel-icon {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.hero-texto {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.botao-pixel {
+    background: var(--verde-grama);
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border: 4px solid var(--preto);
+    box-shadow: 4px 4px 0 var(--preto);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    display: inline-block;
+    transition: .2s;
+}
+
+.botao-pixel:hover {
+    background: var(--dourado);
+    color: var(--preto);
+}
+
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.titulo-preto {
+    color: var(--preto);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 30px;
+}
+
+.card {
+    background: var(--bg-bege-escuro);
+    text-align: center;
+    transition: .2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.card-texto {
+    margin-top: 10px;
+}
+
+.sobre-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.sobre-texto {
+    flex: 1;
+    min-width: 300px;
+}
+
+.sobre-card {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    background: var(--bg-bege-escuro);
+    padding: 20px;
+    border: 2px dashed var(--marrom-madeira);
+}
+
+.junimo {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background: var(--marrom-madeira);
+    color: var(--bg-bege);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer p {
+    color: var(--bg-bege);
+}
+
+h1:hover,
+h2:hover {
+    color: var(--dourado);
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+}
