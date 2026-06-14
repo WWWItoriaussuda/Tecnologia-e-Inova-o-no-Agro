@@ -1,11 +1,11 @@
 :root {
     --bg-bege: #eecfa1;
     --bg-bege-escuro: #d4b276;
-    --marrom-madeira: #452608;
-    --verde-grama: #304809;
+    --marrom-madeira: #704214;
+    --verde-grama: #639b08;
     --preto: #181d1f;
     --branco: #ffffff;
-    --dourado: #7b5519;
+    --dourado: #fbaf35;
 }
 
 * {
@@ -178,11 +178,11 @@ nav a {
     border: 2px dashed var(--marrom-madeira);
 }
 
-.junimo {
-    width: 180px;
+.galinha {
+    width: 120px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 15px;
 }
 
 footer {
