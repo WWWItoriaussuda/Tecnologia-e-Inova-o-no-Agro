@@ -80,8 +80,14 @@ nav a {
 
 .hero {
     text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(var(--verde-grama) 50%, var(--bg-bege) 50%);
+    padding: 100px 20px;
+
+    background-image: url("Stardewfundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 500px;
 }
 
 .hero-content {
