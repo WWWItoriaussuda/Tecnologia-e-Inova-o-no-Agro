@@ -136,14 +136,14 @@ nav a {
 
     padding: 50px;
 
-    background:
-    repeating-linear-gradient(
-        90deg,
-        #a06b36 0px,
-        #a06b36 25px,
-        #8f5d2f 25px,
-        #8f5d2f 50px
-    );
+background:
+repeating-linear-gradient(
+    to bottom,
+    #a06b36 0px,
+    #a06b36 35px,
+    #8f5d2f 35px,
+    #8f5d2f 70px
+);
 
     border: 10px solid #5c3310;
 
@@ -239,19 +239,36 @@ nav a {
 }
 
 .sobre-card {
+
     flex: 1;
     min-width: 300px;
+
     text-align: center;
-    background: var(--bg-bege-escuro);
-    padding: 20px;
-    border: 2px dashed var(--marrom-madeira);
+
+    padding: 25px;
+
+    background:
+    repeating-linear-gradient(
+        to bottom,
+        #a06b36 0px,
+        #a06b36 35px,
+        #8f5d2f 35px,
+        #8f5d2f 70px
+    );
+
+    border: 8px solid #5c3310;
+
+    box-shadow:
+    0 0 0 3px #2c1606,
+    6px 6px 0 #181d1f;
 }
 
 .galinha {
     width: 120px;
     height: auto;
     display: block;
-    margin: 0 auto 15px;
+    margin-left: auto;
+    margin-bottom: 15px;
 }
 
 footer {
