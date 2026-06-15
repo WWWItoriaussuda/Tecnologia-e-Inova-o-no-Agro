@@ -92,25 +92,15 @@ nav a {
 }
 
 .slogan {
-
     font-size: 30px;
-
-    color: rgb(0, 0, 0);
-
-    margin-bottom: 25px;
-
-    text-shadow: 2px 2px 0 #181d1f;
+    color: #000000;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
 }
 
 .hero-texto {
-
-    font-size: 26px;
-
-    color: rgb(0, 0, 0);
-
-    margin-bottom: 30px;
-
-    text-shadow: 2px 2px 0 #181d1f;
+    font-size: 24px;
+    color: #000000;
+    text-shadow: none;
 }
 
 .hero {
