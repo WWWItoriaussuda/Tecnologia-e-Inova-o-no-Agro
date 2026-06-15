@@ -195,7 +195,8 @@ repeating-linear-gradient(
 }
 
 #sobre h2 {
-    font-size: 30px;
+    font-size: 34px;
+    color: var(--preto);
 }
 .grid-container {
     display: grid;
