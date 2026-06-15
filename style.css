@@ -139,10 +139,10 @@ nav a {
 background:
 repeating-linear-gradient(
     to bottom,
-    #a06b36 0px,
-    #a06b36 35px,
-    #8f5d2f 35px,
-    #8f5d2f 70px
+        #dabb99 0px,
+        #dabb99 35px,
+        #8e6f51 35px,
+        #8e6f51 70px
 );
 
     border: 10px solid #5c3310;
@@ -250,10 +250,10 @@ repeating-linear-gradient(
     background:
     repeating-linear-gradient(
         to bottom,
-        #a06b36 0px,
-        #a06b36 35px,
-        #8f5d2f 35px,
-        #8f5d2f 70px
+        #dabb99 0px,
+        #dabb99 35px,
+        #8e6f51 35px,
+        #8e6f51 70px
     );
 
     border: 8px solid #5c3310;
@@ -310,10 +310,10 @@ h2:hover {
     background:
     repeating-linear-gradient(
         to bottom,
-        #c68a4a 0px,
-        #c68a4a 35px,
-        #b77b3f 35px,
-        #b77b3f 70px
+        #bda489 0px,
+        #bda489 35px,
+        #9a7c5e 35px,
+        #9a7c5e 70px
     );
 
     border: 8px solid #704214;
