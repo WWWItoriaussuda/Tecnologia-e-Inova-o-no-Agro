@@ -272,12 +272,18 @@ repeating-linear-gradient(
 }
 
 .galinha {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
     width: 120px;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-bottom: 15px;
 }
+
+.sobre-container {
+    position: relative;
+}
+
 
 footer {
     background: var(--marrom-madeira);
