@@ -236,19 +236,17 @@ nav a {
 
 .moldura-galinhas{
     display: flex;
-    flex-wrap: wrap;
-    gap: 13px;
+    flex-wrap: nowrap;
+    gap: 8px;
     justify-content: center;
     position: absolute;
-    right: 50px;
-    top: 280px;
-    width: 350px;
+    right: 40px;
+    top: 230px;
 }
-.fila-galinhas {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 20px;
+
+.galinha {
+    width: 35px;
+    height: auto;
 }
 
 .galinha {
