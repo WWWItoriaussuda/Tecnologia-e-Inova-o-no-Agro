@@ -80,7 +80,7 @@ nav a {
 
 .titulo-jogo {
 
-    font-size: 42px;
+    font-size: 67px;
 
     color: #ffd34d;
 
@@ -93,9 +93,9 @@ nav a {
 
 .slogan {
 
-    font-size: 28px;
+    font-size: 30px;
 
-    color: white;
+    color: rgb(0, 0, 0);
 
     margin-bottom: 25px;
 
@@ -106,7 +106,7 @@ nav a {
 
     font-size: 26px;
 
-    color: white;
+    color: rgb(0, 0, 0);
 
     margin-bottom: 30px;
 
@@ -190,7 +190,12 @@ repeating-linear-gradient(
 }
 
 .titulo-preto {
+    font-size: 36px;
     color: var(--preto);
+}
+
+#sobre h2 {
+    font-size: 30px;
 }
 
 .grid-container {
@@ -271,12 +276,16 @@ repeating-linear-gradient(
     6px 6px 0 #181d1f;
 }
 
-.moldura-galinhas {
+.fila-galinhas {
     display: flex;
-    justify-content: center;
     gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
 
-    margin-top: 20px; /* espaço do texto */
+.galinha {
+    width: 50px;
+    height: auto;
 }
 
 .galinha {
