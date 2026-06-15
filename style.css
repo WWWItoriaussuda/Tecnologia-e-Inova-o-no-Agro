@@ -121,14 +121,14 @@ nav a {
 
 
 .slogan {
-    font-size: 30px;
+    font-size: 34px;
     color: #000;
     text-shadow: none;
     margin-bottom: 10px;
 }
 
 .hero-texto {
-    font-size: 24px;
+    font-size: 28px;
     color: #000;
     text-shadow: none;
     margin: 20px 0;
@@ -169,8 +169,7 @@ nav a {
 }
 
 #sobre h2 {
-    font-size: 34px;
-    color: var(--preto);
+    font-size: 32px;
 }
 
 .grid-container {
@@ -198,12 +197,12 @@ nav a {
 }
 
 .card-icon {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 15px;
 }
 
 .card-texto {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
