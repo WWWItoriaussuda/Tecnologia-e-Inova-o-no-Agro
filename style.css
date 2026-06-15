@@ -271,12 +271,16 @@ repeating-linear-gradient(
     6px 6px 0 #181d1f;
 }
 
-.galinha {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+.moldura-galinhas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 
-    width: 120px;
+    margin-top: 20px; /* espaço do texto */
+}
+
+.galinha {
+    width: 50px;
     height: auto;
 }
 
