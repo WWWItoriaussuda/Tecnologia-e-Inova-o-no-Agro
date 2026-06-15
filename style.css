@@ -164,7 +164,7 @@ nav a {
 }
 
 .titulo-preto {
-    font-size: 36px;
+    font-size: 40px;
     color: var(--preto);
 }
 
@@ -317,11 +317,4 @@ h2:hover {
 
 .sobre-container{
     align-items: flex-start;
-}
-
-.icone-picareta{
-    width: 45px;
-    height: auto;
-    vertical-align: middle;
-    margin-right: 10px;
 }
