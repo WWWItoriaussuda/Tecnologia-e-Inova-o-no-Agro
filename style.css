@@ -234,6 +234,12 @@ nav a {
     min-width: 300px;
 }
 
+.moldura-galinhas{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 60px;
+}
 .fila-galinhas {
     display: flex;
     gap: 10px;
@@ -298,4 +304,15 @@ h2:hover {
     to {
         text-shadow: 3px 3px 0 #5c3310, 0 0 10px #ffd34d;
     }
+}
+
+.sobre-container h2{
+    text-align: left;
+    white-space: nowrap;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.sobre-container{
+    align-items: flex-start;
 }
