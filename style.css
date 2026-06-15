@@ -40,7 +40,7 @@ h2 {
 }
 
 .box-retro {
-    background: var(--bg-bege);
+    background: var(transparent);
     border: 4px solid var(--marrom-madeira);
     box-shadow: 4px 4px 0 var(--preto);
     padding: 20px;
@@ -139,10 +139,10 @@ nav a {
 background:
 repeating-linear-gradient(
     to bottom,
-        #dabb99 0px,
-        #dabb99 35px,
-        #8e6f51 35px,
-        #8e6f51 70px
+    #f0d3b0 0px,
+    #f0d3b0 35px,
+    #d8b48a 35px,
+    #d8b48a 70px
 );
 
     border: 10px solid #5c3310;
@@ -200,7 +200,15 @@ repeating-linear-gradient(
 }
 
 .card {
-    background: var(--bg-bege-escuro);
+    background: linear-gradient(
+        to bottom,
+        #e3a368 0%,
+        #efb977 25%,
+        #f9c679 50%,
+        #efb977 75%,
+        #e3a368 100%
+    );
+
     text-align: center;
     transition: .2s;
 }
@@ -248,13 +256,13 @@ repeating-linear-gradient(
     padding: 25px;
 
     background:
-    repeating-linear-gradient(
-        to bottom,
-        #dabb99 0px,
-        #dabb99 35px,
-        #8e6f51 35px,
-        #8e6f51 70px
-    );
+repeating-linear-gradient(
+    to bottom,
+    #f0d3b0 0px,
+    #f0d3b0 35px,
+    #d8b48a 35px,
+    #d8b48a 70px
+);
 
     border: 8px solid #5c3310;
 
@@ -290,13 +298,13 @@ h2:hover {
 .sobre-container {
 
     background:
-    repeating-linear-gradient(
-        to bottom,
-        #dabb99 0px,
-        #dabb99 35px,
-        #8e6f51 35px,
-        #8e6f51 70px
-    );
+repeating-linear-gradient(
+    to bottom,
+    #f0d3b0 0px,
+    #f0d3b0 35px,
+    #d8b48a 35px,
+    #d8b48a 70px
+);
 
     border: 8px solid #704214;
 
