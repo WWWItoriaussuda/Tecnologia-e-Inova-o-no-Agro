@@ -197,7 +197,6 @@ repeating-linear-gradient(
 #sobre h2 {
     font-size: 30px;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
@@ -237,13 +236,22 @@ repeating-linear-gradient(
     gap: 30px;
     align-items: center;
 
-    background-image:
-        linear-gradient(rgba(238, 207, 161, 0.85), rgba(238, 207, 161, 0.85)),
-        url("./Fundo\ de\ conversa.jpg");
+    position: relative;
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background:
+    repeating-linear-gradient(
+        to bottom,
+        #bda489 0px,
+        #bda489 35px,
+        #9a7c5e 35px,
+        #9a7c5e 70px
+    );
+
+    border: 8px solid #704214;
+
+    box-shadow:
+    0 0 0 3px #4f2e0d,
+    8px 8px 0 #181d1f;
 }
 
 .sobre-texto {
@@ -297,11 +305,6 @@ repeating-linear-gradient(
     height: auto;
 }
 
-.sobre-container {
-    position: relative;
-}
-
-
 footer {
     background: var(--marrom-madeira);
     color: var(--bg-bege);
@@ -316,42 +319,6 @@ footer p {
 h1:hover,
 h2:hover {
     color: var(--dourado);
-}
-
-.sobre-container {
-
-    background:
-repeating-linear-gradient(
-    to bottom,
-    #f0d3b0 0px,
-    #f0d3b0 35px,
-    #d8b48a 35px,
-    #d8b48a 70px
-);
-
-    border: 8px solid #704214;
-
-    box-shadow:
-    0 0 0 3px #4f2e0d,
-    8px 8px 0 #181d1f;
-}
-
-.sobre-container {
-
-    background:
-    repeating-linear-gradient(
-        to bottom,
-        #bda489 0px,
-        #bda489 35px,
-        #9a7c5e 35px,
-        #9a7c5e 70px
-    );
-
-    border: 8px solid #704214;
-
-    box-shadow:
-    0 0 0 3px #4f2e0d,
-    8px 8px 0 #181d1f;
 }
 
 @media (max-width: 768px) {
