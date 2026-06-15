@@ -280,7 +280,11 @@ repeating-linear-gradient(
 }
 
 .galinha {
-    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    width: 120px;
     height: auto;
 }
 
@@ -372,4 +376,22 @@ repeating-linear-gradient(
 
         opacity: 1;
     }
+}
+
+.titulo-jogo {
+    animation: brilho 2s infinite alternate;
+}
+
+@keyframes brilho {
+    from {
+        text-shadow: 3px 3px 0 #5c3310;
+    }
+    to {
+        text-shadow: 3px 3px 0 #5c3310, 0 0 10px #ffd34d;
+    }
+}
+
+.botao-pixel:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 var(--preto);
 }
